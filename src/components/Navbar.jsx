@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -47,7 +47,9 @@ function Navbar() {
         </svg>
       </button>
 
-      <div className={`mobile-menu absolute top-[70px] left-0 w-full bg-white p-6 ${isOpen ? 'block' : 'hidden'} md:hidden`}>
+      <div
+        className={`mobile-menu absolute top-[70px] left-0 w-full bg-white p-6 ${isOpen ? "block" : "hidden"} md:hidden`}
+      >
         <ul className="flex flex-col space-y-4 text-lg">
           <li>
             <a href="#" className="text-sm">
