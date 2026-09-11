@@ -1,12 +1,13 @@
-
+import {useState} from "react";
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav class="h-[70px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-20 bg-white text-gray-700 shadow-[0px_4px_25px_0px_#0000000D] transition-all">
-      <a href="https://github.com/JustChiwo" class="text-cyan-600 text-2xl">
+    <nav className="h-[70px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-20 bg-white text-gray-700 shadow-[0px_4px_25px_0px_#0000000D] transition-all">
+      <a href="https://github.com/JustChiwo" className="text-cyan-600 text-2xl">
         Chiwo
       </a>
 
-      <ul class="md:flex hidden items-center gap-10">
+      <ul className="md:flex hidden items-center gap-10">
         <li>
           <a className="hover:text-gray-500/80 transition" href="#">
             Home
@@ -32,7 +33,8 @@ function Navbar() {
       <button
         aria-label="menu-btn"
         type="button"
-        class="menu-btn inline-block md:hidden active:scale-90 transition"
+        onClick={() => setIsOpen(!isOpen)}
+        className="menu-btn inline-block md:hidden active:scale-90 transition"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -45,8 +47,8 @@ function Navbar() {
         </svg>
       </button>
 
-      <div class="mobile-menu absolute top-[70px] left-0 w-full bg-white p-6 hidden md:hidden">
-        <ul class="flex flex-col space-y-4 text-lg">
+      <div className={`mobile-menu absolute top-[70px] left-0 w-full bg-white p-6 ${isOpen ? 'block' : 'hidden'} md:hidden`}>
+        <ul className="flex flex-col space-y-4 text-lg">
           <li>
             <a href="#" className="text-sm">
               Home
