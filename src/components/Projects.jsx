@@ -5,7 +5,7 @@ function Projects() {
   return (
     <>
       
-      <h2 className="text-3xl font-semibold text-center mx-auto">
+      <h2 id="Projects" className="text-3xl font-semibold text-center mx-auto">
         My Projects
       </h2>
 

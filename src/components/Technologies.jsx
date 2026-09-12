@@ -11,7 +11,7 @@ function Technologies() {
       <h2 className="text-3xl font-semibold text-center mx-auto">
         My Tech stack
       </h2>
-      <div className="mt-20 flex flex-wrap justify-center gap-12 mb-10">
+      <div className="mt-15 flex flex-wrap justify-center gap-12 mb-10">
         <img className="h-20 w-20 " src={html} alt="HTML" />
 
         <img className="h-20 w-20 " src={css} alt="CSS" />
