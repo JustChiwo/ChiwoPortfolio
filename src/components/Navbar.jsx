@@ -2,29 +2,29 @@ import { useState } from "react";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="h-[70px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-20 bg-white text-gray-700 shadow-[0px_4px_25px_0px_#0000000D] transition-all">
+    <nav className="fixed top-0 left-0 w-full h-[70px]  px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-20 bg-white/70 backdrop-blur-md text-gray-700 shadow-[0px_4px_25px_0px_#0000000D] transition-all">
       <a href="https://github.com/JustChiwo" className="text-cyan-600 text-2xl">
         Chiwo
       </a>
 
       <ul className="md:flex hidden items-center gap-10">
         <li>
-          <a className="hover:text-gray-500/80 transition" href="#">
+          <a className="hover:text-gray-500/80 transition" href="#Home">
             Home
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-500/80 transition" href="#">
+          <a className="hover:text-gray-500/80 transition" href="#About">
             About
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-500/80 transition" href="#">
+          <a className="hover:text-gray-500/80 transition" href="#Projects">
             Projects
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-500/80 transition" href="#">
+          <a className="hover:text-gray-500/80 transition" href="#Contact">
             Contact
           </a>
         </li>
