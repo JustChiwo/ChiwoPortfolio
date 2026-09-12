@@ -2,6 +2,7 @@ import myImage from "../assets/Chiwo.jpeg";
 
 function About() {
   return (
+    
     <div
       id="About"
       className="flex flex-col md:flex-row items-center justify-between gap-10 pl-10 pr-10 pt-10"
