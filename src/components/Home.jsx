@@ -9,10 +9,10 @@ function Home() {
         Somehow I turn curiosity into Code.
       </p>
       <div className="mx-auto w-full flex items-center justify-center gap-3 mt-4">
-        <button className="bg-cyan-700 hover:bg-black text-white px-6 py-3 rounded-full font-medium transition">
+        <button className="bg-cyan-600 hover:bg-black text-white active:scale-95 rounded-md px-7 h-11">
           <a href="#Projects">My Projects</a>
         </button>
-        <button className="flex items-center gap-2 border border-slate-300 hover:bg-slate-200/30 rounded-full px-6 py-3 break-after-page">
+        <button className="flex items-center gap-2 border border-slate-300 hover:bg-slate-200/30 rounded-full px-6 py-3 active:scale-95 break-after-page">
           <a href="#Contact">Get in Touch</a>
         </button>
       </div>

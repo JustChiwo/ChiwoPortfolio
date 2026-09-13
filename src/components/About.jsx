@@ -2,7 +2,6 @@ import myImage from "../assets/Chiwo.jpeg";
 
 function About() {
   return (
-    
     <div
       id="About"
       className="flex flex-col md:flex-row items-center justify-between gap-10 pl-10 pr-10 pt-10"
@@ -27,10 +26,10 @@ function About() {
         </p>
         <div className="flex items-center gap-4 mt-8 text-sm">
           <button className="bg-cyan-600 hover:bg-black text-white active:scale-95 rounded-md px-7 h-11">
-            Projects
+            <a href="#Projects">Projects</a>
           </button>
-          <button className="flex items-center gap-2 border border-slate-600 active:scale-95 hover:bg-white/10 transition text-slate-600 rounded-md px-6 h-11">
-            Contact Me
+          <button className="flex items-center gap-2 border border-slate-300 hover:bg-slate-200/30 rounded-full px-6 py-3 active:scale-95 break-after-page">
+            <a href="#Contact">Contact Me</a>
           </button>
         </div>
       </div>
