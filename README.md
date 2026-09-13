@@ -4,7 +4,7 @@ My personal portfolio website — built to showcase who I am, what I can do, and
 
 ## 🔗 Live Demo
 
-[View Live Site](#) chiwo.netlify.app
+[View Live Site](chiwo.netlify.app) 
 
 ## 🛠️ Tech Stack
 
