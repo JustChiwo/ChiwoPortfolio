@@ -8,7 +8,8 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Copyright / Brand */}
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} YourCompany. All rights reserved.
+          &copy; {new Date().getFullYear()} Chiwoniso Jonas Mvundura. All rights
+          reserved.
         </p>
 
         <div className="flex items-center space-x-6">
