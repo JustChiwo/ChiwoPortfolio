@@ -1,19 +1,60 @@
-# React + Vite
+# ChiwoPortfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website — built to showcase who I am, what I can do, and the projects I've worked on so far as a developer.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Site](#) chiwo.netlify.app
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **React.js** (Vite)
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Responsive navbar with mobile dropdown menu
+- Fixed navbar with glassmorphism blur effect
+- Hero section with personal tagline
+- About section with bio and profile image
+- Projects section showcasing 3+ real projects with images and tech tags
+- Tech stack / skills section
+- Contact section
+- Footer with contact links
+- Smooth scroll navigation between sections
+- Fully responsive across mobile, tablet, and desktop
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Clone the repo and run it locally:
+
+```bash
+git clone https://github.com/JustChiwo/ChiwoPortfolio.git
+cd ChiwoPortfolio
+npm install
+npm run dev
+```
+
+The app will run locally at `http://localhost:5173` (or whichever port Vite assigns).
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ ├── Home.jsx
+│ ├── About.jsx
+│ ├── Technologies.jsx
+│ ├── Projects.jsx
+│ ├── Contact.jsx
+│ └── Footer.jsx
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+## 👤 Author
+
+**Chiwo Mvundura**
