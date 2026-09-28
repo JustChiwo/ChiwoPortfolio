@@ -12,16 +12,16 @@ function About() {
           A deep dive into Chiwo
         </h2>
         <p className="text-center md:text-left text-sm text-slate-700 max-w-lg mt-2">
-          Im a young and ambitious software Developer with a passion for
-          creating working solutions. I have a stong understanding of
+          I'm a young and ambitious software Developer with a passion for
+          creating working solutions. I have a strong understanding of
           programming and hardware, and a keen interest in exploring new
-          technologies. My goal is to create meanningfull solutions and to be
+          technologies. My goal is to create meaningful solutions and to be
           remembered as an innovative and impactful developer.
         </p>
         <br />
         <p className="text-center md:text-left text-sm text-slate-700 max-w-lg mt-2">
           When I'm not coding, you'll find me exploring new technologies,
-          reading tech blogs, tinkering with hardware projects or playing with
+          reading tech blogs, tinkering with hardware projects, or playing with
           cars
         </p>
         <div className="flex items-center gap-4 mt-8 text-sm">
