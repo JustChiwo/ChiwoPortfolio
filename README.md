@@ -4,7 +4,7 @@ My personal portfolio website — built to showcase who I am, what I can do, and
 
 ## 🔗 Live Demo
 
-[View Live Site](https://chiwo.netlify.app/#Home) 
+[View Live Site](https://chiwo.netlify.app/#Home)
 
 ## 🛠️ Tech Stack
 
@@ -54,7 +54,10 @@ src/
 ├── main.jsx
 └── index.css
 
-
 ## 👤 Author
 
 **Chiwo Mvundura**
+
+# To Do
+
+- Replace website with Reeds Digital Solutions and COE
