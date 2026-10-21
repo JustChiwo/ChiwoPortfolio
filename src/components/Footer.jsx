@@ -38,7 +38,7 @@ function Footer() {
             <img src={logo3} alt="Instagram" className="w-5 h-5" />
           </a>
           <a
-            href="https://www.tiktok.com/@just_chiwo"
+            href="https://www.tiktok.com/@just.chiwo"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors duration-200 text-sm"
